@@ -1,7 +1,7 @@
 # Sublimetext Setting
 
 ## Package Control
-View > Show Console  -> ctrl + '
+View > Show Console  -> ctrl + '  
 https://packagecontrol.io/installation#st2
 
 ###Sublimetext3
@@ -12,22 +12,22 @@ https://packagecontrol.io/installation#st2
 
 ## Package Control List
 
-BracketHighlighter
-ConvertToUTF8
-IMESupport
-SideBarEnhancements
-Theme - Soda
-TortoiseSVN
+* BracketHighlighter
+* ConvertToUTF8
+* IMESupport
+* SideBarEnhancements
+* Theme - Soda
+* TortoiseSVN
 
 ## User Setting
 preferences > Settings - User
 
 ### Base
-"highlight_line": true
+"highlight_line": true  
 "word_wrap": true
 
 ### Theme - Soda
-"soda_folder_icons": true
+"soda_folder_icons": true  
 "theme": "Soda Dark 3.sublime-theme"
 
 
