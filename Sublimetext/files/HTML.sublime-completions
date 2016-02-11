@@ -1,0 +1,211 @@
+{
+	"scope": "text.html - source - meta.tag, punctuation.definition.tag.begin",
+
+	"completions":
+	[	// tag completion setting
+		{ "trigger": "head", "contents": "<head>$0</head>" },
+		{ "trigger": "title", "contents": "<title>$0</title>" },
+		{ "trigger": "meta", "contents": "<meta>" },
+		{ "trigger": "linkcss", "contents": "<link rel=\"stylesheet\" type=\"text/css\" href=\"$0.css\">" },
+		{ "trigger": "linkjs", "contents": "<script type=\"text/javascript\" src=\"$0.js\"></script>" },
+		{ "trigger": "style", "contents": "<style type=\"text/css\">\n$0\n</style>" },
+		{ "trigger": "script", "contents": "<script type=\"text/javascript\">\n$0\n</script>" },
+
+		{ "trigger": "body", "contents": "<body>$0</body>" },
+		{ "trigger": "base", "contents": "<base href=\"$0\">" },
+		{ "trigger": "div", "contents": "<div>$0</div>" },
+		{ "trigger": "divc", "contents": "<div class=\"$1\">\n\t$0\n</div>" },
+		{ "trigger": "divi", "contents": "<div id=\"$1\">\n\t$0\n</div>" },
+		{ "trigger": "p", "contents": "<p>$0</p>" },
+		{ "trigger": "pcl", "contents": "<p class=\"$1\">$0</p>" },
+		{ "trigger": "h1", "contents": "<h1>$0</h1>" },
+		{ "trigger": "h2", "contents": "<h2>$0</h2>" },
+		{ "trigger": "h3", "contents": "<h3>$0</h3>" },
+		{ "trigger": "h4", "contents": "<h4>$0</h4>" },
+		{ "trigger": "h5", "contents": "<h5>$0</h5>" },
+		{ "trigger": "h6", "contents": "<h6>$0</h6>" },
+		{ "trigger": "address", "contents": "<address>$0</address>" },
+
+		{ "trigger": "a", "contents": "<a href=\"#\">$0</a>" },
+		{ "trigger": "img", "contents": "<img src=\"../img/$1.png\" width=\"$0\" height=\"$2\" alt=\"$3\">" },
+		{ "trigger": "aimg", "contents": "<a href=\"#\"><img src=\"../img/$1.png\" width=\"$0\" height=\"$2\" alt=\"$3\"></a>" },
+
+		{ "trigger": "span", "contents": "<span>$0</span>" },
+		{ "trigger": "spanc", "contents": "<span class=\"$1\">$0</span>" },
+		{ "trigger": "strong", "contents": "<strong>$0</strong>" },
+		{ "trigger": "strongc", "contents": "<strong class=\"$1\">$0</strong>" },
+		{ "trigger": "em", "contents": "<em>$0</em>" },
+		{ "trigger": "emc", "contents": "<em class=\"$1\">$0</em>" },
+		{ "trigger": "b", "contents": "<b>$0</b>" },
+		{ "trigger": "u", "contents": "<u>$0</u>" },
+		{ "trigger": "i", "contents": "<i>$0</i>" },
+		{ "trigger": "center", "contents": "<center>$0</center>" },
+		{ "trigger": "font", "contents": "<font>$0</font>" },
+
+		{ "trigger": "hr", "contents": "<hr>" },
+		{ "trigger": "br", "contents": "<br>" },
+
+		{ "trigger": "ul", "contents": "<ul class=\"$1\">\n\t<li>$0</li>\n\t<li></li>\n\t<li></li>\n</ul>" },
+		{ "trigger": "ol", "contents": "<ol class=\"$1\">\n\t<li>$0</li>\n\t<li></li>\n\t<li></li>\n</ol>" },
+		{ "trigger": "li", "contents": "<li>$0</li>" },
+		{ "trigger": "dl", "contents": "<dl class=\"$1\">\n\t<dt>$0</dt>\n\t<dd></dd>\n\t<dd></dd>\n</dl>" },
+		{ "trigger": "dt", "contents": "<dt>$1</dt>" },
+		{ "trigger": "dd", "contents": "<dd>$1</dd>" },
+
+		{ "trigger": "frameset", "contents": "<frameset rows=\"$0, *\" border=\"0\">\n\t<frame src=\".html\" name=\"\" id=\"\" title=\"\" noresize scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\">\n\t<frameset cols=\", *\" border=\"0\">\n\t\t<frame src=\".html\" name=\"\" id=\"\" title=\"\" noresize scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\">\n\t\t<frame src=\".html\" name=\"\" id=\"\" title=\"\" noresize scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\">\n\t</frameset>\n</frameset>" },
+		{ "trigger": "frame", "contents": "<frame src=\"$0.html\" name=\"\" id=\"\" title=\"\" noresize scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\">" },
+		{ "trigger": "noframes", "contents": "<noframes>\n\t$0\n</noframes>" },
+		{ "trigger": "iframe", "contents": "<iframe src=\"$1\" width=\"100%\" height=\"$0\" title=\"$2\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe>" },
+		{ "trigger": "form", "contents": "<form action=\"\">\n<fieldset>\n<legend>$0</legend>\n</fieldset>\n</form>" },
+		{ "trigger": "fieldset", "contents": "<fieldset>\n<legend>$0</legend>\n</fieldset>" },
+		{ "trigger": "label", "contents": "<label for=\"$0\"></label>" },
+		{ "trigger": "select", "contents": "<select title=\"$0\" style=\"width:$1px\">\n\t<option></option>\n\t<option></option>\n</select>" },
+		{ "trigger": "optgroup", "contents": "<optgroup label=\"\">$0</optgroup>" },
+		{ "trigger": "option", "contents": "<option>$0</option>" },
+		{ "trigger": "inputt", "contents": "<input type=\"text\" title=\"$0\" style=\"width:$1px\">" },
+		{ "trigger": "inputp", "contents": "<input type=\"password\" title=\"$0\" style=\"width:$1px\">" },
+		{ "trigger": "inputr", "contents": "<input type=\"radio\" name=\"$0\" id=\"\">" },
+		{ "trigger": "inputc", "contents": "<input type=\"checkbox\" name=\"$0\" id=\"\">" },
+		{ "trigger": "inputi", "contents": "<input type=\"image\" src=\"../img/$1.png\" alt=\"$0\">" },
+		{ "trigger": "textarea", "contents": "<textarea cols=\"30\" rows=\"5\" title=\"$0\">$1</textarea>" },
+		{ "trigger": "inputre", "contents": "<input type=\"reset\">" },
+		{ "trigger": "inputb", "contents": "<input type=\"button\" value=\"$0\">" },
+		{ "trigger": "inputsub", "contents": "<input type=\"submit\">" },
+		{ "trigger": "inputh", "contents": "<input type=\"hidden\">" },
+		{ "trigger": "buttonb", "contents": "<button type=\"button\">$0</button>" },
+		{ "trigger": "buttonr", "contents": "<button type=\"reset\">$0</button>" },
+		{ "trigger": "buttons", "contents": "<button type=\"submit\">$0</button>" },
+
+		{ "trigger": "tablec", "contents": "<table cellspacing=\"0\" border=\"1\" summary=\"\" class=\"$0\">\n\t<caption></caption>\n\t<colgroup>\n\t<col width=\"\"><col width=\"\">\n\t</colgroup>\n\t<thead>\n\t<tr>\n\t<th scope=\"col\"></th>\n\t<th scope=\"col\"></th>\n\t</tr>\n\t</thead>\n\t<tbody>\n\t<tr>\n\t<th scope=\"row\"></th>\n\t<td></td>\n\t<td></td>\n\t</tr>\n\t</tbody>\n</table>" },
+		{ "trigger": "tablemail", "contents": "<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" width=\"$0\" style=\"font-family:'',dotum;font-size:12px;color:#\">\n\t<tr>\n\t<td></td>\n\t<td></td>\n\t</tr>\n</table>" },
+		{ "trigger": "tr", "contents": "<tr>\n$0\n</tr>" },
+		{ "trigger": "th", "contents": "<th scope=\"$0\"></th>" },
+		{ "trigger": "td", "contents": "<td>$0</td>" },
+		{ "trigger": "thead", "contents": "<thead>\n<tr>\n<th scope=\"col\"></th>\n<th scope=\"col\"></th>\n</tr>\n</thead>" },
+		{ "trigger": "tfoot", "contents": "<tfoot>\n<tr>\n<td></td>\n<td></td>\n</tr>\n</tfoot>" },
+		{ "trigger": "tbody", "contents": "<tbody>\n<tr>\n<th scope=\"row\"></th>\n<td></td>\n<td></td>\n</tr>\n</tbody>" },
+		{ "trigger": "caption", "contents": "<caption>$0</caption>" },
+		{ "trigger": "colgroup", "contents": "<colgroup>$0</colgroup>" },
+		{ "trigger": "col", "contents": "<col width=\"\">$0</col>" },
+
+		{ "trigger": "map", "contents": "<map name=\"$0\">\n<area shape=\"rect\" coords=\",,,\" href=\"#\" alt=\"\">\n<area shape=\"rect\" coords=\",,,\" href=\"#\" alt=\"\">\n</map>" },
+		{ "trigger": "area", "contents": "<area>$0</area>" },
+
+		{ "trigger": "abbr", "contents": "<abbr>$1</abbr>" },
+		{ "trigger": "acronym", "contents": "<acronym>$1</acronym>" },
+		{ "trigger": "applet", "contents": "<applet code=\"$0\" width=\"\" height=\"\"></applet>" },
+		{ "trigger": "blockquote", "contents": "<blockquote>$1</blockquote>" },
+		{ "trigger": "big", "contents": "<big>$1</big>" },
+		{ "trigger": "cdata", "contents": "<cdata>$1</cdata>" },
+		{ "trigger": "cite", "contents": "<cite>$1</cite>" },
+		{ "trigger": "code", "contents": "<code>$1</code>" },
+		{ "trigger": "del", "contents": "<del>$1</del>" },
+		{ "trigger": "dfn", "contents": "<dfn>$1</dfn>" },
+		{ "trigger": "ins", "contents": "<ins>$1</ins>" },
+		{ "trigger": "kbd", "contents": "<kbd>$1</kbd>" },
+		{ "trigger": "object", "contents": "<object id=\"%s\" width=\"$0\" height=\"\" classid=\"CLSID:%s\"></object>" },
+		{ "trigger": "pre", "contents": "<pre>$1</pre>" },
+		{ "trigger": "samp", "contents": "<samp>$1</samp>" },
+		{ "trigger": "small", "contents": "<small>$1</small>" },
+		{ "trigger": "sub", "contents": "<sub>$1</sub>" },
+		{ "trigger": "sup", "contents": "<sup>$1</sup>" },
+		{ "trigger": "tt", "contents": "<tt>$1</tt>" },
+		{ "trigger": "var", "contents": "<var>$1</var>" },
+		{ "trigger": "embed", "contents": "<embed>" },
+		{ "trigger": "param", "contents": "<param name=\"$1\" value=\"$2\">" },
+
+		{ "trigger": "article", "contents": "<article>$1</article>" },
+		{ "trigger": "aside", "contents": "<aside>$1</aside>" },
+		{ "trigger": "audio", "contents": "<audio>$1</audio>" },
+		{ "trigger": "canvas", "contents": "<canvas>$1</canvas>" },
+		{ "trigger": "footer", "contents": "<footer>$1</footer>" },
+		{ "trigger": "header", "contents": "<header>$1</header>" },
+		{ "trigger": "nav", "contents": "<nav>$1</nav>" },
+		{ "trigger": "section", "contents": "<section>$1</section>" },
+		{ "trigger": "video", "contents": "<video>$1</video>" },
+
+		// my completion setting
+		{ "trigger": "주석", "contents": "<!--/* $0 */-->" },
+
+		// Entity
+		{ "trigger": "겹따", "contents": "&quot;" },
+		{ "trigger": "홑따", "contents": "&apos;" },
+		{ "trigger": "엔드", "contents": "&amp;" },
+		{ "trigger": "괄호시작", "contents": "&lt;" },
+		{ "trigger": "괄호끝", "contents": "&gt;" },
+		{ "trigger": "카피", "contents": "&copy;" },
+
+		{ "trigger": "1겹따", "contents": "&#34;" },
+		{ "trigger": "1홑따", "contents": "&#39;" },
+		{ "trigger": "1엔드", "contents": "&#38;" },
+		{ "trigger": "1괄호시작", "contents": "&#60;" },
+		{ "trigger": "1괄호끝", "contents": "&#62;" },
+		{ "trigger": "1카피", "contents": "&#169;" },
+
+		/* ======
+			## ie6 이하 hack
+			*html
+			## ie7 hack
+			*+html
+			## ie8 hack
+			@media \0screen{{}}
+			## ie9 hack
+			:root {\0/IE9}
+			## 비표준 브라우저 제외 핵 (ie9 이상)
+			:root {}
+			## ie6전용
+			<!--[if IE 6]><![endif]-->
+			## ie7이하
+			<!--[if lte IE 7]><![endif]-->
+			## ie7,ff [Standard Mode], ie7,ie8,ff [Quirks Mode]
+			,x:-moz-any-link,x:default{}
+			## meta IE edge
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			## 투명도
+			opacity:0.8;filter:alpha(opacity=8)
+			## :after
+			:after{display:block;clear:both;content:''}
+			## iframe
+			<iframe src="about:blank" width="" height="" title="" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="display:block;position:absolute;top:0;left:0;z-index:-1;filter:alpha(opacity=0)"></iframe>
+			## png class
+			.png{_behavior:url(http://static.naver.com/common/iepngfix/iepngfix.htc)}
+			## png hack bg
+			_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='이미지네임.png',sizingMethod='crop')
+			## 스크롤색상(ie)
+			scrollbar-face-color:#ccced0;scrollbar-track-color:#fff;scrollbar-arrow-color:#fff;scrollbar-highlight-color:#ccced0;scrollbar-3dlight-color:#fff;scrollbar-shadow-color:#ccced0;scrollbar-darkshadow-color:#fff
+			## css reset
+			body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,select,textarea,a,button{margin:0;padding:0;border:0}
+			article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;margin:0;padding:0}
+			body,input,select,textarea,button,table{font-size:12px;font-family:'돋움',dotum,applegothic,sans-serif}
+			ul,ol{list-style:none}
+			em,address{font-style:normal}
+			hr,caption,legend{display:none}
+			a{text-decoration:none}
+			a:hover,a:active,a:focus{text-decoration:underline}
+			
+			table,th,td{width:100%;table-layout:fixed;border:0;border-spacing:0;border-collapse:collapse;word-break:break-all}
+			input[type="checkbox"],input[type="radio"]{width:13px;height:13px;vertical-align:text-top}
+			label{vertical-align:-1px}
+			lable input[type="checkbox"],lable input[type="radio"]{margin-top:-1px}
+			## swf
+			<script type="text/javascript">
+				var obj = new XObject("object");
+				obj.showDefaultFlash("플래시네임.swf","플래시경로.swf","가로","세로","transparent");
+			</script>
+			## 팝업스크립트
+			onclick="window.open(this.href, 'name', 'width=570, height=490'); return false;"
+			## jsp인코딩
+			<%@ page contentType="text/html; charset=euc-kr" %>
+			## jsp inc
+			<%@ include file=".jsp" %>
+			## jsp inc2
+			<jsp:include page=" relativeURL " flush="true" />
+			## asp inc
+			<!-- #include virtual=".asp" -->
+			## asp inc2
+			<!-- #include file="document.asp" -->
+			## php inc
+			<? include("document.php"); ?>
+		===== */
+	]
+}
