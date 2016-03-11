@@ -28,7 +28,7 @@ preferences > Settings - User
 
 ### Theme - Soda
 "soda_folder_icons": true  
-"theme": "Soda Dark 3.sublime-theme" // sublimetext3
+"theme": "Soda Dark 3.sublime-theme" // sublimetext3  
 "theme": "Soda Dark.sublime-theme" // sublimetext2
 
 
