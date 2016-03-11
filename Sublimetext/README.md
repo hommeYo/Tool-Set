@@ -26,13 +26,14 @@ https://packagecontrol.io/installation#st2
 preferences > Settings - User
 
 ### Base
-"highlight_line": true  
-"word_wrap": true
+"font_size": 12,   
+"highlight_line": true,  
+"word_wrap": true,
 
 ### Theme - Soda
-"soda_folder_icons": true  
-"theme": "Soda Dark 3.sublime-theme" // sublimetext3  
-"theme": "Soda Dark.sublime-theme" // sublimetext2
+"soda_folder_icons": true,  
+"theme": "Soda Dark 3.sublime-theme", // sublimetext3  
+"theme": "Soda Dark.sublime-theme", // sublimetext2
 
 
 
