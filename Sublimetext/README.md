@@ -18,6 +18,9 @@ https://packagecontrol.io/installation#st2
 * SideBarEnhancements
 * Theme - Soda
 * TortoiseSVN
+* Sass
+* SASS Build
+* SublimeOnSaveBuild
 
 ## User Setting
 preferences > Settings - User
