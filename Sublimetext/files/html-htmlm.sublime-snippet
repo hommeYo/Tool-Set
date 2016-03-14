@@ -1,0 +1,33 @@
+<snippet>
+<content><![CDATA[<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<link rel="apple-touch-cion-precomposed" href="">
+<title>메뉴 :: Tmon</title>
+<link rel="stylesheet" type="text/css" href=".css">
+<script type="text/javascript" src=".js"></script>
+</head>
+<body>
+<a href="#ct" class="blind">본문 바로가기</a>
+<!-- header -->
+<header>
+</header>
+<!-- //header -->
+<hr>
+<!-- ct -->
+<div id="ct">
+	$0
+</div>
+<!-- //ct -->
+<hr>
+<!-- footer -->
+<footer>
+</footer>
+<!-- //footer -->
+</body>
+</html>]]></content>
+<tabTrigger>htmlm</tabTrigger>
+<scope>text.html</scope>
+</snippet>
