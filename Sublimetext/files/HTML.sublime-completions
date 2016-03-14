@@ -132,7 +132,7 @@
 		{ "trigger": "popJS", "contents": "onclick=\"window.open(this.href, 'name', 'width=570, height=490'); return false;\"" },
 		{ "trigger": "투명도", "contents": "opacity:0.8;filter:alpha(opacity=8)" },
 		{ "trigger": ":after", "contents": ":after{display:block;clear:both;content:''}" },
-		{ "trigger": "iescroll", "contents": "scrollbar-face-color:#ccced0;scrollbar-track-color:#fff;scrollbar-arrow-color:#fff;scrollbar-highlight-color:#ccced0;scrollbar-3dlight-color:#fff;scrollbar-shadow-color:#ccced0;scrollbar-darkshadow-color:#fff" },
+		{ "trigger": "IEsc", "contents": "scrollbar-face-color:#ccced0;scrollbar-track-color:#fff;scrollbar-arrow-color:#fff;scrollbar-highlight-color:#ccced0;scrollbar-3dlight-color:#fff;scrollbar-shadow-color:#ccced0;scrollbar-darkshadow-color:#fff" },
 
 		// Entity
 		{ "trigger": "E겹", "contents": "&quot;" },
@@ -152,16 +152,22 @@
 		/* ======
 			## ie7 hack
 			*+html
+
 			## ie8 hack
 			@media \0screen{{}}
+
 			## ie9 hack
 			:root {\0/IE9}
+
 			## 비표준 브라우저 제외 핵 (ie9 이상)
 			:root {}
+
 			## ie7,ff [Standard Mode], ie7,ie8,ff [Quirks Mode]
 			,x:-moz-any-link,x:default{}
+
 			## iframe
 			<iframe src="about:blank" width="" height="" title="" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="display:block;position:absolute;top:0;left:0;z-index:-1;filter:alpha(opacity=0)"></iframe>
+
 			## css reset
 			body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,select,textarea,a,button{margin:0;padding:0;border:0}
 			article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;margin:0;padding:0}
@@ -176,6 +182,7 @@
 			input[type="checkbox"],input[type="radio"]{width:13px;height:13px;vertical-align:text-top}
 			label{vertical-align:-1px}
 			lable input[type="checkbox"],lable input[type="radio"]{margin-top:-1px}
+			
 			## swf
 			<script type="text/javascript">
 				var obj = new XObject("object");
