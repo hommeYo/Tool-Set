@@ -126,25 +126,30 @@
 
 		// my completion setting
 		{ "trigger": "주석", "contents": "<!--/* $0 */-->" },
+		{ "trigger": "ie6전용", "contents": "<!--[if IE 6]>$0<![endif]-->" },
+		{ "trigger": "ie7이하", "contents": "<!--[if lte IE 7]>$0<![endif]-->" },
+		{ "trigger": "IEedge", "contents": "<meta http-equiv=\"X-UA-Compatible\"; content=\"IE=edge\">" },
+		{ "trigger": "popJS", "contents": "onclick=\"window.open(this.href, 'name', 'width=570, height=490'); return false;\"" },
+		{ "trigger": "투명도", "contents": "opacity:0.8;filter:alpha(opacity=8)" },
+		{ "trigger": ":after", "contents": ":after{display:block;clear:both;content:''}" },
+		{ "trigger": "iescroll", "contents": "scrollbar-face-color:#ccced0;scrollbar-track-color:#fff;scrollbar-arrow-color:#fff;scrollbar-highlight-color:#ccced0;scrollbar-3dlight-color:#fff;scrollbar-shadow-color:#ccced0;scrollbar-darkshadow-color:#fff" },
 
 		// Entity
-		{ "trigger": "겹따", "contents": "&quot;" },
-		{ "trigger": "홑따", "contents": "&apos;" },
-		{ "trigger": "엔드", "contents": "&amp;" },
-		{ "trigger": "괄호시작", "contents": "&lt;" },
-		{ "trigger": "괄호끝", "contents": "&gt;" },
-		{ "trigger": "카피", "contents": "&copy;" },
+		{ "trigger": "E겹", "contents": "&quot;" },
+		{ "trigger": "E홑", "contents": "&apos;" },
+		{ "trigger": "E엔드", "contents": "&amp;" },
+		{ "trigger": "E괄호시", "contents": "&lt;" },
+		{ "trigger": "E괄호끝", "contents": "&gt;" },
+		{ "trigger": "E카피", "contents": "&copy;" },
 
-		{ "trigger": "1겹따", "contents": "&#34;" },
-		{ "trigger": "1홑따", "contents": "&#39;" },
+		{ "trigger": "1겹", "contents": "&#34;" },
+		{ "trigger": "1홑", "contents": "&#39;" },
 		{ "trigger": "1엔드", "contents": "&#38;" },
-		{ "trigger": "1괄호시작", "contents": "&#60;" },
+		{ "trigger": "1괄호시", "contents": "&#60;" },
 		{ "trigger": "1괄호끝", "contents": "&#62;" },
-		{ "trigger": "1카피", "contents": "&#169;" },
+		{ "trigger": "1카피", "contents": "&#169;" }
 
 		/* ======
-			## ie6 이하 hack
-			*html
 			## ie7 hack
 			*+html
 			## ie8 hack
@@ -153,26 +158,10 @@
 			:root {\0/IE9}
 			## 비표준 브라우저 제외 핵 (ie9 이상)
 			:root {}
-			## ie6전용
-			<!--[if IE 6]><![endif]-->
-			## ie7이하
-			<!--[if lte IE 7]><![endif]-->
 			## ie7,ff [Standard Mode], ie7,ie8,ff [Quirks Mode]
 			,x:-moz-any-link,x:default{}
-			## meta IE edge
-			<meta http-equiv="X-UA-Compatible" content="IE=edge">
-			## 투명도
-			opacity:0.8;filter:alpha(opacity=8)
-			## :after
-			:after{display:block;clear:both;content:''}
 			## iframe
 			<iframe src="about:blank" width="" height="" title="" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="display:block;position:absolute;top:0;left:0;z-index:-1;filter:alpha(opacity=0)"></iframe>
-			## png class
-			.png{_behavior:url(http://static.naver.com/common/iepngfix/iepngfix.htc)}
-			## png hack bg
-			_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='이미지네임.png',sizingMethod='crop')
-			## 스크롤색상(ie)
-			scrollbar-face-color:#ccced0;scrollbar-track-color:#fff;scrollbar-arrow-color:#fff;scrollbar-highlight-color:#ccced0;scrollbar-3dlight-color:#fff;scrollbar-shadow-color:#ccced0;scrollbar-darkshadow-color:#fff
 			## css reset
 			body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,select,textarea,a,button{margin:0;padding:0;border:0}
 			article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;margin:0;padding:0}
@@ -192,20 +181,6 @@
 				var obj = new XObject("object");
 				obj.showDefaultFlash("플래시네임.swf","플래시경로.swf","가로","세로","transparent");
 			</script>
-			## 팝업스크립트
-			onclick="window.open(this.href, 'name', 'width=570, height=490'); return false;"
-			## jsp인코딩
-			<%@ page contentType="text/html; charset=euc-kr" %>
-			## jsp inc
-			<%@ include file=".jsp" %>
-			## jsp inc2
-			<jsp:include page=" relativeURL " flush="true" />
-			## asp inc
-			<!-- #include virtual=".asp" -->
-			## asp inc2
-			<!-- #include file="document.asp" -->
-			## php inc
-			<? include("document.php"); ?>
 		===== */
 	]
 }
