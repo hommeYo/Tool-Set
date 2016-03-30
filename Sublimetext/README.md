@@ -20,7 +20,7 @@ https://packagecontrol.io/installation#st2
 * TortoiseSVN
 * Sass
 * SASS Build
-* SublimeOnSaveBuild
+* SublimeOnSaveBuild :: sublimetext2 - user setting "build_on_save": 0
 
 ## User Setting
 preferences > Settings - User
