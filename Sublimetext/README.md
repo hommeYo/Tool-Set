@@ -15,25 +15,30 @@ https://packagecontrol.io/installation#st2
 * BracketHighlighter
 * ConvertToUTF8
 * IMESupport
-* SideBarEnhancements
+* SideBarEnhancements (https://packagecontrol.io/packages/SideBarEnhancements)
 * Theme - Soda
 * TortoiseSVN
 * Sass
 * SASS Build
-* SublimeOnSaveBuild :: sublimetext2 - user setting ["build_on_save": 0]
+* SublimeOnSaveBuild
 
 ## User Setting
-preferences > Settings - User
+### preferences > Settings - User
 
-### Base
-"font_size": 12,   
+>// Base
+"font_size": 13,   
 "highlight_line": true,  
 "word_wrap": true,
-
-### Theme - Soda
+// Theme - Soda
 "soda_folder_icons": true,  
 "theme": "Soda Dark 3.sublime-theme", // sublimetext3  
 "theme": "Soda Dark.sublime-theme", // sublimetext2
+// SublimeOnSaveBuild (sublimetext2)
+"build_on_save": 0,
+
+### preferences > Key bindings - User
+
+>{ "keys": ["ctrl+shift+alt+s"], "command": "toggle_side_bar" }
 
 
 
