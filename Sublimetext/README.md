@@ -28,11 +28,11 @@ https://packagecontrol.io/installation#st2
 >// Base  
 "font_size": 13,   
 "highlight_line": true,  
-"word_wrap": true, 
+"word_wrap": true,  
 // Theme - Soda  
 "soda_folder_icons": true,  
 "theme": "Soda Dark 3.sublime-theme", // sublimetext3  
-"theme": "Soda Dark.sublime-theme", // sublimetext2 
+"theme": "Soda Dark.sublime-theme", // sublimetext2  
 // SublimeOnSaveBuild (sublimetext2)  
 "build_on_save": 0,
 
