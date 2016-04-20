@@ -34,7 +34,7 @@ https://packagecontrol.io/installation#st2
 // SublimeOnSaveBuild (sublimetext2)  
 "build_on_save": 0,   
 // Theme - DC  
-"theme": "DC_3.sublime-theme", // sublimetext3 
+"theme": "DC_3.sublime-theme", // sublimetext3  
 "theme" : "DC_2.sublime-theme", // sublimetext2  
 // Theme - Soda  
 "soda_folder_icons": true,  
