@@ -41,6 +41,16 @@ https://packagecontrol.io/installation#st2
 "theme": "Soda Dark 3.sublime-theme", // sublimetext3  
 "theme": "Soda Dark.sublime-theme", // sublimetext2  
 
+"always_show_minimap_viewport": true,	// 미니맵에서 현재 위치 표시
+"bold_folder_labels": true,	// 폴더 굵게 표시
+"build_on_save": 0,	// SublimeOnSaveBuild (sublimetext2)
+"font_size": 13,
+"highlight_line": true,	// 현재 줄 강조
+"soda_folder_icons": true, 	// Theme - Soda icons
+"theme": "DC_3.sublime-theme",	// Theme - DC
+"trim_trailing_white_space_on_save": true,	//저장 시 줄끝 공백 제거
+"word_wrap": true	//자동 줄 바꿈 사용
+
 ### preferences > Key bindings - User
 
 >{ "keys": ["ctrl+shift+alt+s"], "command": "toggle_side_bar" }
